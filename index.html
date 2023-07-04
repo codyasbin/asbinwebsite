@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AsbinMagar</title>
+    
+    <style>
+        #img1{width: 11%;
+            display: inline;
+             border: 2px solid rgb(116, 224, 224);
+            border-radius: 60%;}
+        body{
+            background-color: rgb(59, 67, 70);
+            background-image: url(https://media.istockphoto.com/id/1285395672/photo/abstract-futuristic-with-connection-lines-on-blue-background-plexus-structure-concept-of.jpg?b=1&s=612x612&w=0&k=20&c=AZwPyEY1H04PwBLvEIR8khtLRA-RzozIm5OeIPgQJRY=);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        h1{color: rgb(180, 236, 236);
+            display: block;
+            margin-bottom: 30%;
+            width: 250px;
+            margin: -9% 30% -1% 11%;
+            text-align: center;
+            font-family: serif;
+           
+        }
+        ul{margin-right: 5%;}
+        .navi{margin-top: 6%;margin-right: 5%;}
+        nav ul li{float: right;}
+        li{list-style: none;
+            padding: 2%;
+        margin-top: -5%;}
+        a{
+            color: white;
+            text-decoration: none;
+        }
+        a:hover{color: aquamarine;}
+       
+       .About{margin: 20%;
+       }
+       @keyframes slideInRight {
+            0% { opacity: 0; transform: translateX(-100px); }
+            100% { opacity: 1; transform: translateX(0); }
+        }
+    #About{animation-name: slideInRight;
+        animation-duration: 2s;}
+
+       #about{ color: rgb(97, 158, 158); font-size: 200%;
+        float: right;    margin: 7% -28% -49% 39%;
+        }
+        #img2{width: 40%;
+            height: 30%;
+            display: inline;
+            border: 2px solid rgb(116, 224, 224);
+            border-radius: 50%;
+            }
+         .intro{color: rgb(199, 249, 249); ;    margin: -35% -31% -2% 41%;
+    text-align: center;}
+
+    #skill{color: rgb(97, 158, 158); font-size: 200%;
+        font-size: 200%;
+    margin: 20% 2% 2% 2%;
+    display: block;
+    width: 80%;}
+    .box{ border: 2px solid rgb(116, 224, 224);
+    background-color: rgb(48, 83, 107);
+    margin: 0px;
+    margin-left: 39px;
+    padding: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 203px;
+    height: 136px;
+    color: rgb(199, 249, 249);
+    text-align: center;
+text-decoration: solid;
+text-align: center;
+font-size: 120%;
+transition: transform 0.3s ease;}
+.box:hover{color: rgb(0, 255, 170);
+    border-color:rgb(0, 255, 170) ;
+    transform: scale(1.1);
+cursor: pointer;}
+
+.tools{margin: 20%;
+float: none;
+text-align:center ;
+opacity: 0;
+  animation: fadeIn 0.5s forwards;}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);}}
+#Tools{color:rgb(97, 158, 158); font-size: 200%;
+    display: block;
+  margin: 50% 50% 0% 45%;
+width: 25px;
+
+}
+
+.tool{color: rgb(199, 249, 249);
+    margin: -12%;
+    padding: 12%;
+    list-style: square;
+    line-height: 474%;}
+
+    .contact{color: aqua;
+    display: inline;}
+#contactme{color: aqua;}
+.contact-info{color:rgb(199, 249, 249);}
+#footer{border: 2px;
+border-color: rgb(255, 255, 255);
+color: aquamarine;
+font-size: medium;
+}
+
+    </style>
+
+
+</head>
+<body>
+    <header>
+        <img id="img1" src="c:\Users\DELL\OneDrive\Pictures\Saved Pictures\Screenshot 2023-06-23 220420.png" alt="">
+        <h1>AsBin MaGar</h1>
+        <div class="navi">
+            <nav>
+                <ul>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#tools">Tools</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#About">About</a></li>
+                    <li><a href="#">Home</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section id="About" class="About">
+        <h2 id="about">About Me</h2>
+        <img id="img2" src="c:\Users\DELL\OneDrive\Pictures\Saved Pictures\342199003_523163850030514_758488500204106651_n.jpg" alt="">
+
+            <p class="intro">Tech enthusiast and lifelong learner on a mission to unravel the mysteries of the digital world. Embracing the power of code and innovation, I thrive in the ever-evolving realm of IT. From software development to cybersecurity, I'm constantly expanding my knowledge and honing my skills. Passionate about leveraging technology to drive positive change, I'm determined to make a meaningful impact through creative problem-solving and cutting-edge solutions. Join me on this exciting journey as we shape the future of technology together.</p>
+        
+    </section>
+    <section class="Skills" id="skills">
+        <h2 id="skill">Skills</h2>
+            <div class="box">
+              <p>Software Development</p>
+            </div>
+            <div class="box">
+              <p>Web developement</p>
+            </div>
+            <div class="box">
+            <p> Web Design</p>
+            </div>
+            <div class="box">
+              <p>Cyber Security</p>
+            </div>
+        
+    </section>
+    <section class="tools" id="tools">
+        <h2 id="Tools">Tools</h2>
+        <div class="tool">
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JAVA</li>
+                <li>CSS</li>
+                <li>PYTHON</li>
+                <li>C#</li>
+            </ul>
+        </div>
+    </section> 
+    <section class="contact" id="contact">
+        <div class="contactme">
+            <h2>Contact Me</h2>
+        </div>
+        
+        <div class="contact-info">
+            <div class="contact-info-item">
+                <h3>Email</h3>
+                <p>himalthapa346@gmail.com</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <h3>Phone</h3>
+                        <p>9824235695</p>
+                        </div>
+                        <div class="contact-info-item">
+                            <h3>Address</h3>
+                            <p>Bharatpur 8 gauriganj</p>
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- make  footer  -->
+    <footer class="footer"></footer>>
+        <div style="border: 2px solid aqua;
+        text-align: center;">
+            <p id="footer">Copyright &copy; 2023 Asbin Magar</p>
+        </div>
+    </footer>
+</body>
+</html>
