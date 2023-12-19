@@ -1,208 +1,501 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AsbinMagar</title>
-    
-    <style>
-        #img1{width: 11%;
-            display: inline;
-             border: 2px solid rgb(116, 224, 224);
-            border-radius: 60%;}
-        body{
-            background-color: rgb(59, 67, 70);
-            background-image: url(https://media.istockphoto.com/id/1285395672/photo/abstract-futuristic-with-connection-lines-on-blue-background-plexus-structure-concept-of.jpg?b=1&s=612x612&w=0&k=20&c=AZwPyEY1H04PwBLvEIR8khtLRA-RzozIm5OeIPgQJRY=);
-            background-repeat: no-repeat;
-            background-size: cover;
-        }
-        h1{color: rgb(180, 236, 236);
-            display: block;
-            margin-bottom: 30%;
-            width: 250px;
-            margin: -9% 30% -1% 11%;
-            text-align: center;
-            font-family: serif;
-           
-        }
-        ul{margin-right: 5%;}
-        .navi{margin-top: 6%;margin-right: 5%;}
-        nav ul li{float: right;}
-        li{list-style: none;
-            padding: 2%;
-        margin-top: -5%;}
-        a{
-            color: white;
-            text-decoration: none;
-        }
-        a:hover{color: aquamarine;}
-       
-       .About{margin: 20%;
-       }
-       @keyframes slideInRight {
-            0% { opacity: 0; transform: translateX(-100px); }
-            100% { opacity: 1; transform: translateX(0); }
-        }
-    #About{animation-name: slideInRight;
-        animation-duration: 2s;}
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-       #about{ color: rgb(97, 158, 158); font-size: 200%;
-        float: right;    margin: 7% -28% -49% 39%;
-        }
-        #img2{width: 40%;
-            height: 30%;
-            display: inline;
-            border: 2px solid rgb(116, 224, 224);
-            border-radius: 50%;
-            }
-         .intro{color: rgb(199, 249, 249); ;    margin: -35% -31% -2% 41%;
-    text-align: center;}
+  <title>Asbin Magar</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    #skill{color: rgb(97, 158, 158); font-size: 200%;
-        font-size: 200%;
-    margin: 20% 2% 2% 2%;
-    display: block;
-    width: 80%;}
-    .box{ border: 2px solid rgb(116, 224, 224);
-    background-color: rgb(48, 83, 107);
-    margin: 0px;
-    margin-left: 39px;
-    padding: 5px;
-    box-sizing: border-box;
-    display: inline-block;
-    width: 203px;
-    height: 136px;
-    color: rgb(199, 249, 249);
-    text-align: center;
-text-decoration: solid;
-text-align: center;
-font-size: 120%;
-transition: transform 0.3s ease;}
-.box:hover{color: rgb(0, 255, 170);
-    border-color:rgb(0, 255, 170) ;
-    transform: scale(1.1);
-cursor: pointer;}
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  
 
-.tools{margin: 20%;
-float: none;
-text-align:center ;
-opacity: 0;
-  animation: fadeIn 0.5s forwards;}
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);}}
-#Tools{color:rgb(97, 158, 158); font-size: 200%;
-    display: block;
-  margin: 50% 50% 0% 45%;
-width: 25px;
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Satisfy"
+    rel="stylesheet">
 
-}
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-.tool{color: rgb(199, 249, 249);
-    margin: -12%;
-    padding: 12%;
-    list-style: square;
-    line-height: 474%;}
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
 
-    .contact{color: aqua;
-    display: inline;}
-#contactme{color: aqua;}
-.contact-info{color:rgb(199, 249, 249);}
-#footer{border: 2px;
-border-color: rgb(255, 255, 255);
-color: aquamarine;
-font-size: medium;
-}
-
-    </style>
-
-
+  <!-- =======================================================
+  * Template Name: Laura
+  * Updated: Sep 18 2023 with Bootstrap v5.3.2
+  * Template URL: https://bootstrapmade.com/laura-free-creative-bootstrap-theme/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
 </head>
-<body>
-    <header>
-        <img id="img1" src="https://github.com/codyasbin/asbinwebsite/blob/main/Screenshot%202023-06-23%20220420.png?raw=true" alt="logo">
-        <h1>AsBin MaGar</h1>
-        <div class="navi">
-            <nav>
-                <ul>
-                    <li><a href="#contact">Contact</a></li>
-                    <li><a href="#tools">Tools</a></li>
-                    <li><a href="#skills">skills</a></li>
-                    <li><a href="#About">About</a></li>
-                    <li><a href="#">Home</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
-    <section id="About" class="About">
-        <h2 id="about">About Me</h2>
-        <img id="img2" src="https://github.com/codyasbin/asbinwebsite/blob/main/342199003_523163850030514_758488500204106651_n.jpg?raw=true" alt="image">
 
-            <p class="intro">Tech enthusiast and lifelong learner on a mission to unravel the mysteries of the digital world. Embracing the power of code and innovation, I thrive in the ever-evolving realm of IT. From software development to cybersecurity, I'm constantly expanding my knowledge and honing my skills. Passionate about leveraging technology to drive positive change, I'm determined to make a meaningful impact through creative problem-solving and cutting-edge solutions. Join me on this exciting journey as we shape the future of technology together.</p>
-        
-    </section>
-    <section class="Skills" id="skills">
-        <h2 id="skill">Skills</h2>
-            <div class="box">
-              <p>Software Development</p>
-            </div>
-            <div class="box">
-              <p>Web developement</p>
-            </div>
-            <div class="box">
-            <p> Web Design</p>
-            </div>
-            <div class="box">
-              <p>Cyber Security</p>
-            </div>
-        
-    </section>
-    <section class="tools" id="tools">
-        <h2 id="Tools">Tools</h2>
-        <div class="tool">
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JAVA</li>
-                <li>CSS</li>
-                <li>PYTHON</li>
-                <li>C#</li>
-            </ul>
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex justify-content-center align-items-center header-transparent">
+
+    <nav id="navbar" class="navbar">
+      <ul>
+        <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+        <li><a class="nav-link scrollto" href="#about">About</a></li>
+        <li><a class="nav-link scrollto" href="#resume">Resume</a></li>
+        <li><a class="nav-link scrollto" href="#services">Services</a></li>
+        <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li>
+
+        <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+      </ul>
+      <i class="bi bi-list mobile-nav-toggle"></i>
+    </nav><!-- .navbar -->
+
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container">
+      <h1>Asbin Magar</h1>
+      <h2>I'm a Professionalsoftware developer.</h2>
+      <a href="#about" class="btn-scroll scrollto" title="Scroll Down"><i class="bx bx-chevron-down"></i></a>
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Me Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title">
+          <span>About Me</span>
+          <h2>About Me</h2>
+          <p>Hi i am Asbin Thapa magar </p>
         </div>
-    </section> 
-    <section class="contact" id="contact">
-        <div class="contactme">
-            <h2>Contact Me</h2>
-        </div>
-        
-        <div class="contact-info">
-            <div class="contact-info-item">
-                <h3>Email</h3>
-                <p>himalthapa346@gmail.com</p>
-                    </div>
-                    <div class="contact-info-item">
-                        <h3>Phone</h3>
-                        <p>9824235695</p>
-                        </div>
-                        <div class="contact-info-item">
-                            <h3>Address</h3>
-                            <p>Bharatpur 8 gauriganj</p>
-                        </div>
-                    </div>
+
+        <div class="row">
+          <div class="image col-lg-4 d-flex align-items-stretch justify-content-center justify-content-lg-start"></div>
+          <div class="col-lg-8 d-flex flex-column align-items-stretch">
+            <div class="content ps-lg-4 d-flex flex-column justify-content-center">
+              <div class="row">
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Name:</strong> <span>Asbin Magar</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Website:</strong> <span>www.tivra.com</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Phone:</strong> <span>+123 9824235695</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>City:</strong> <span>Bharatpur, Nepal</span></li>
+                  </ul>
+                </div>
+                <div class="col-lg-6">
+                  <ul>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Age:</strong> <span>21</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Degree:</strong> <span>Bachelor</span></li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>PhEmailone:</strong> <span>himalthapa346@gmail.com</span>
+                    </li>
+                    <li><i class="bi bi-chevron-right"></i> <strong>Freelance:</strong> <span>Available</span></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="row mt-n4">
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-emoji-smile" style="color: #20b38e;"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="232" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Happy Clients</strong></p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-journal-richtextr" style="color: #8a1ac2;"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="521" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Projects</strong> </p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-clock" style="color: #2cbdee;"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="3" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Years of experience</strong></p>
+                  </div>
+                </div>
+
+                <div class="col-md-6 mt-5 d-md-flex align-items-md-stretch">
+                  <div class="count-box">
+                    <i class="bi bi-award" style="color: #ffb459;"></i>
+                    <span data-purecounter-start="0" data-purecounter-end="16" data-purecounter-duration="1"
+                      class="purecounter"></span>
+                    <p><strong>Awards</strong></p>
+                  </div>
+                </div>
+              </div>
+            </div><!-- End .content-->
+
+            <div class="skills-content ps-lg-4">
+              <div class="progress">
+                <span class="skill">HTML <i class="val">100%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="100" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">CSS <i class="val">90%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
+
+              <div class="progress">
+                <span class="skill">JavaScript <i class="val">75%</i></span>
+                <div class="progress-bar-wrap">
+                  <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                  </div>
+                </div>
+              </div>
             </div>
+
+          </div>
         </div>
-    </section>
-    <!-- make  footer  -->
-    <footer class="footer"></footer>>
-        <div style="border: 2px solid aqua;
-        text-align: center;">
-            <p id="footer">Copyright &copy; 2023 Asbin Magar</p>
+
+      </div>
+    </section><!-- End About Me Section -->
+
+    <!-- ======= My Resume Section ======= -->
+    <section id="resume" class="resume  ">
+      <div class="container">
+
+        <div class="section-title">
+          <span>My Resume</span>
+          <h2>My Resume</h2>
+
         </div>
-    </footer>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Summary</h3>
+            <div class="resume-item pb-0">
+              <h4>Asbin Magar</h4>
+              <p><em>Unleashing innovation through code, I am a passionate software developer on a mission to transform
+                  ideas into digital brilliance. With a keen eye for detail and a love for elegant solutions, I navigate
+                  the ever-evolving tech landscape, crafting seamless and efficient experiences. Beyond the screen, I'm
+                  an advocate for continuous learning, always embracing new challenges and technologies. Let's redefine
+                  possibilities, one line of code at a time. 🚀💻</em></p>
+              <p>
+              <ul>
+                <li>Bharatpur, 8 Gauriganj</li>
+                <li>9824235695</li>
+                <li>himalthapa346@gmail.com</li>
+              </ul>
+              </p>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of &amp;Information and Technology</h4>
+              <h5>2023 - 2026</h5>
+              <p><em>Sunderland University , Uk</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>+2 in Science</h4>
+              <h5>2020 - 2022</h5>
+              <p><em>Aroma College, Nepal</em></p>
+
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+            <div class="resume-item">
+              <h4>Junior Web Developer</h4>
+              <h5> Present</h5>
+              <p><em>
+                  Tivra Soft Company , Chitwan</em></p>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End My Resume Section -->
+
+    <!-- ======= My Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title">
+          <span>My Services</span>
+          <h2>My Services</h2>
+
+        </div>
+
+        <div class="row">
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-braces"></i></div>
+              <h4 class="title"><a href="">Web Development </a></h4>
+              <p class="description">As a seasoned web developer, I specialize in crafting visually appealing and
+                functionally robust websites and web applications.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-phone"></i></div>
+              <h4 class="title"><a href="">Mobile App Developement</a></h4>
+              <p class="description">With a passion for mobile technology, I excel in creating dynamic and user-friendly
+                applications for both iOS and Android platforms.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-database"></i></div>
+              <h4 class="title"><a href="">Database Design and Management</a></h4>
+              <p class="description">As a database specialist, I thrive on designing and optimizing databases to handle
+                data efficiently and securely.</p>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-code-square"></i></i></div>
+              <h4 class="title"><a href="">Api Development</a></h4>
+              <p class="description">Specializing in API development, I create robust and scalable interfaces that
+                facilitate seamless communication between applications. </p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End My Services Section -->
+
+
+
+
+    <!-- ======= My Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title">
+          <span>My Portfolio</span>
+          <h2>My Portfolio</h2>
+
+        </div>
+
+        <ul id="portfolio-flters" class="d-flex justify-content-center">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+
+        <div class="row portfolio-container">
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="#" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 1</h4>
+              <p>App</p>
+              <a href="#" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-2.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-2.png" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="https://sandeshthapa3.com.np/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="#" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 2</h4>
+              <p>App</p>
+              <a href="#" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-5.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 2</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-5.png" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
+              <a href="https://taraguesthousesauraha.com/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            <div class="portfolio-img"><img src="#" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>App 3</h4>
+              <p>App</p>
+              <a href="#" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
+              <a href="#" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+          
+
+          
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+            <div class="portfolio-img"><img src="assets/img/portfolio/portfolio-9.png" class="img-fluid" alt=""></div>
+            <div class="portfolio-info">
+              <h4>Web 3</h4>
+              <p>Web</p>
+              <a href="assets/img/portfolio/portfolio-9.png" data-gallery="portfolioGallery"
+                class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
+              <a href="https://tivrasoft.com/" target="_blank" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End My Portfolio Section -->
+
+
+
+    <!-- ======= Contact Me Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container">
+
+        <div class="section-title">
+          <span>Contact Me</span>
+          <h2>Contact Me</h2>
+
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+
+            <div class="row">
+              <div class="col-md-12">
+                <div class="info-box">
+                  <i class="bx bx-share-alt"></i>
+                  <h3>Social Profiles</h3>
+                  <div class="social-links">
+                    <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/asbin.magar.564/" target="_blank" class="facebook"><i
+                        class="bi bi-facebook"></i></a>
+                    <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="google-plus"><i class="bi bi-skype"></i></a>
+                    <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-envelope"></i>
+                  <h3>Email Me</h3>
+                  <p>himalthapa346@example.com</p>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="info-box mt-4">
+                  <i class="bx bx-phone-call"></i>
+                  <h3>Call Me</h3>
+                  <p>+977 9824235695</p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Contact Me Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Asbin Magar</h3>
+      <p>Crafting digital excellence, one line of code at a time. </p>
+      <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/asbin.magar.564/" target="_blank" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="copyright">
+        &copy; Copyright <strong><span>Asbin</span></strong>. All Rights Reserved
+      </div>
+
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
 </body>
+
 </html>
