@@ -602,7 +602,7 @@ section {
 }
 
 .about .image {
-  background: url("https://images.pexels.com/photos/3861972/pexels-photo-3861972.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1") center center no-repeat;
+  background: url("https://github.com/codyasbin/asbinwebsite/blob/main/assets/img/me.jpg?raw=true") center center no-repeat;
   background-size: cover;
   min-height: 500px;
 }
